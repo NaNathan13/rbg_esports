@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>RBG Esports</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">RBG Esports</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a href="index.html" class="nav-link px-4">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a href="news.html" class="nav-link px-4">NEWS</a>
+      </li>
+      <li class="nav-item">
+        <a href="https://akquire.ca/rbg/" target="_blank" class="nav-link px-4">SHOP</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="teams.html" class="nav-link dropdown-toggle px-4" data-toggle="dropdown">OUR TEAMS</a>
+        <div class="dropdown-menu">
+            <a href="rocket-league.html" class="dropdown-item">Rocket League</a>
+            <a href="apex.html" class="dropdown-item">Apex Legends</a>
+            <a href="hearthstone.html" class="dropdown-item">Hearthstone</a>
+            <a href="streamers.html" class="dropdown-item">Stream Team</a>
+            <a href="staff.html" class="dropdown-item">Our Staff</a>
+        </div>
+    </li>
+      <li class="nav-item">
+        <a href="events.html" class="nav-link px-4">EVENTS</a>
+      </li>
+      <li class="nav-item">
+        <a href="contact.html" class="nav-link px-4">CONTACT US</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+
+  <!--Landing-->
+  <header id="home-section">
+      <div class="dark-overlay">
+        <div class="home-inner container">
+          <div class="row text-center">
+              <h1 id="rbg-title" class="text-center">RBG Esports</h1>
+              <h3 id="rbg-text">What started as a casual competitive league amongst friends has transformed into a fully functioning competitive esports organization. Built on passion and trust, RBG signifies innovation in the esports space. A team not only dedicated to competing at a world-class level, but committed to the cultivation of the esports pros of the future. </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!--Footer-->
+    <footer id="main-footer" class="bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center py-4 text-white">
+              <p>&copy; RBG Esports <span id=year></span>. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+  //Get the current year for the copyright
+  $('#year').text(new Date().getFullYear());
+</script>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* font-family: 'Cabin', sans-serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+nav {
+    height: 120px;
+}
+
+.nav-link {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 15px;
+    font-size: 25px;
+       
+}
+
+#home-section {
+    background: url('img/social_media_cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+
+/* News */
+
+/* Adding CS:GO roster*/
+
+/* Rocket league page*/
+
