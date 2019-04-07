@@ -1,47 +1,30 @@
 /* font-family: 'Cabin', sans-serif; */
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Cabin', sans-serif;
-}
-
-nav {
-    height: 120px;
-}
-
-.nav-link {
-    font-family: 'Cabin', sans-serif;
-    font-weight: 15px;
-    font-size: 25px;
-       
+html,
+body,
+header,
+#intro {
+    height: 100%;
 }
 
 #home-section {
-    background: url('img/social_media_cover.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 700px;
-}
-
-#home-section .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
+    background: url(img/RBGLogoBackground.jpg) no-repeat center center fixed;
+    display: block;
+    position: relative;
+    background-position: 0 75px;
     width: 100%;
-    min-height: 700px;
-    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#home-section .home-inner {
-    padding-top: 150px;
+
+.doodad {
+    background-color: #BD2830 !important;
 }
 
+/* To do: make the active page have black text and all others have white with black hover. Also want the dropdown to activate on hover
+*/ 
 
-/* News */
-
-/* Adding CS:GO roster*/
-
-/* Rocket league page*/
 
