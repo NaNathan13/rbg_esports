@@ -27,4 +27,7 @@ header,
 /* To do: make the active page have black text and all others have white with black hover. Also want the dropdown to activate on hover
 */ 
 
+.nav-link {
+    font-size: 23px;
+}
 
