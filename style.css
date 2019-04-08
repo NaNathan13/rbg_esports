@@ -32,9 +32,23 @@ header,
 }
 
 /* News */
+.news {
+    width: 400px;
+}
+
 .news-container {
     margin-top: 100px;
+    width: 900px;
+    text-align: center !important;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.learn-more-btn {
+    background-color: #BB2B34;
+    color: white;
+}
+
 
 
 /* Events */
@@ -43,8 +57,57 @@ header,
     margin-top: 50px;
 }
 
+/*  Twitch: #6441a5
+    Smash.gg: #C9353F
+    Discord: #7086D3
+    Twitter: #2AA3EF
+*/
+
+.twitch-btn {
+    background-color: #6441a5;
+    color: white;
+}
+
+.smash-btn {
+    background-color: #C9353F;
+    color: white;
+}
+
+.discord-btn {
+    background-color: #7086D3;
+    color: white;
+}
+
+.twitter-btn {
+    background-color: #2AA3EF;
+    color: white;           
+}
+
+
 /* Teams */
 .teams-container {
     margin-top: 100px;
 }
+
+
+/* Media queries */
+
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    body {
+        font-size: 1.2em; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    body {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }
+
+
 
