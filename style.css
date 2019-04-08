@@ -31,3 +31,20 @@ header,
     font-size: 23px;
 }
 
+/* News */
+.news-container {
+    margin-top: 100px;
+}
+
+
+/* Events */
+
+.events-container {
+    margin-top: 50px;
+}
+
+/* Teams */
+.teams-container {
+    margin-top: 100px;
+}
+
